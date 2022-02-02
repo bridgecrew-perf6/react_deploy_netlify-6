@@ -21,7 +21,6 @@ const AddItems = ({addItem,setAddItem,addItems}) => {
                 htmlFor="addItem"
            >Add Item</label>
            <button 
-                role='button'
                 onClick={()=>inputRef.current.focus()}
            >
                 <FaPlus
